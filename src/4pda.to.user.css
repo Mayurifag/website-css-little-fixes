@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name        4pda.to - Fix background for Dark Reader
+@namespace   Mayurifag
+@version     0.0.1
+@homepageURL https://github.com/Mayurifag/website-css-little-fixes
+@updateURL   https://raw.githubusercontent.com/Mayurifag/website-css-little-fixes/main/src/4pda.to.user.css
+@license     MIT
+@author      Mayurifag
+@preprocessor uso
+==/UserStyle== */
+@-moz-document url("https://4pda.to") {
+  body>div:first-of-type {
+    background-color: #EEE;
+  }
+}

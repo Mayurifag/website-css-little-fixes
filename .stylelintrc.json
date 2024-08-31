@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "stylelint-config-standard"
+  ],
+  "ignoreFiles": [
+    "**/*.min.css"
+  ],
+  "rules": {
+    "comment-empty-line-before": null,
+    "rule-empty-line-before": null,
+    "selector-class-pattern": null,
+    "at-rule-no-vendor-prefix": null
+  }
+}

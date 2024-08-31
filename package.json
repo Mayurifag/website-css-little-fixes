@@ -1,0 +1,12 @@
+{
+  "name": "website-css-little-fixes",
+  "version": "0.0.1",
+  "devDependencies": {
+    "stylelint": "^16.9.0",
+    "stylelint-config-standard": "^36.0.1"
+  },
+  "license": "WTFPL",
+  "scripts": {
+    "lint:css": "stylelint '**/*.css'"
+  }
+}
