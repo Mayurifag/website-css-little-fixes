@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@name        4pda.to - Fix background for Dark Reader
+@name        4pda.to - Fixes for 4pda-dark userstyle
 @namespace   Mayurifag
 @version     0.0.1
 @homepageURL https://github.com/Mayurifag/website-css-little-fixes
@@ -8,8 +8,29 @@
 @author      Mayurifag
 @preprocessor uso
 ==/UserStyle== */
-@-moz-document url("https://4pda.to") {
+@-moz-document url-prefix("https://4pda.") {
+
+  /* Fixes background for main website after adblocking background */
   body>div:first-of-type {
-    background-color: #EEE;
+    background-color: #222;
+  }
+
+  /* Fixes for pagination background colors */
+  /* current page */
+  .pagecurrent>a,
+  .pagecurrent-wa {
+    background: #0072BC;
+  }
+
+  /* other links */
+  .pagelink-menu,
+  .pagelink>a,
+  .pagelinklast>a {
+    background: inherit;
+  }
+
+  /* Logo takes a lot of space, maybe make it smaller? */
+  #logostrip {
+    height: 100px;
   }
 }
