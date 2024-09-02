@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name        2ch.hk - fixes for 2ch Rebuild theme https://pastebin.com/Df3Qndsz
+@namespace   Mayurifag
+@version     0.0.1
+@homepageURL https://github.com/Mayurifag/website-css-little-fixes
+@updateURL   https://raw.githubusercontent.com/Mayurifag/website-css-little-fixes/main/src/2ch.hk.user.css
+@license     MIT
+@author      Mayurifag
+@preprocessor uso
+==/UserStyle== */
+@-moz-document domain("2ch.hk"), domain("2ch.life") {
+
+  /* Show text under spoilers */
+  .spoiler,
+  .spoiler a {
+    color: whitesmoke !important;
+  }
+}
