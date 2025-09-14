@@ -23,8 +23,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - uses: DavidAnson/markdownlint-cli2-action@v16
-        with:
-          globs: '**/*.md'
 
   yaml-lint:
     runs-on: ubuntu-latest
