@@ -11,10 +11,11 @@ This project is a collection of small fixes and improvements to the CSS of a web
 
 ## My other projects
 
-I'm also the author of [dark-svtv-org-userstyle](https://github.com/Mayurifag/dark-svtv-org-userstyle) for svtv.org.
+I'm also the author of [dark svtv.org userstyle][6].
 
 [1]: https://userstyles.world/style/6902/4pda-dark
 [2]: https://pastebin.com/Df3Qndsz
 [3]: https://raw.githubusercontent.com/Mayurifag/website-css-little-fixes/main/src/2ch.su.user.css
 [4]: https://raw.githubusercontent.com/Mayurifag/website-css-little-fixes/main/src/4pda.to.user.css
 [5]: https://img.shields.io/badge/Install-UserCSS-blue?style=flat-square&logo=stylus
+[6]: https://github.com/Mayurifag/dark-svtv-org-userstyle
