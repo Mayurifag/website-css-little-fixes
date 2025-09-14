@@ -174,9 +174,6 @@
     --theme_sbtrack: hsl(var(--clr) var(--clr2) 93%);
     --theme_default_shadow: hsl(var(--clr) var(--clr2) 0% / 10%);
     --theme_default_shadow2: hsl(var(--clr) var(--clr2) 0% / 20%);
-  }
-
-  :root {
     --theme_text: hsl(var(--clr) var(--clr2) 20%);
     --theme_link: hsl(var(--clr_link) var(--clr_link2) var(--clr_link3));
     --theme_hover: hsl(var(--clr_link) var(--clr_link2) calc(var(--clr_link3) - 15%));
@@ -248,9 +245,6 @@
     --theme_sbtrack: hsl(var(--clr) var(--clr2) 15%);
     --theme_default_shadow: hsl(var(--clr) var(--clr2) 0% / 15%);
     --theme_default_shadow2: hsl(var(--clr) var(--clr2) 0% / 25%);
-  }
-
-  html[data-theme="nightmode"] {
     --theme_text: hsl(var(--clr) var(--clr2) 85%);
     --theme_link: hsl(var(--clr_link) var(--clr_link2) var(--clr_link3));
     --theme_hover: hsl(var(--clr_link) var(--clr_link2) calc(var(--clr_link3) + 10%));
@@ -271,6 +265,8 @@
     --theme_btnbg: hsl(var(--clr) var(--clr2) 20%);
     --theme_shadow: hsl(var(--clr) var(--clr2) 25%);
     --theme_title: hsl(210deg 45% 70%);
+
+    color-scheme: dark;
   }
 
   html {
@@ -278,9 +274,6 @@
     font-size: 16px;
   }
 
-  html[data-theme="nightmode"] {
-    color-scheme: dark;
-  }
 
   body {
     font-family: 'IBM Plex Sans', sans-serif !important;
@@ -323,11 +316,6 @@
     ::-webkit-scrollbar-corner {
       background: var(--theme_default_bg);
     }
-  }
-
-  *::selection {
-    background: var(--theme_default_shadowhighlight);
-    color: var(--theme_default_altbtntext);
   }
 
   *::selection {
@@ -515,9 +503,6 @@
 
   .body-stickers .sticker-info {
     border-color: var(--theme_default_border);
-  }
-
-  .body-stickers .sticker-info {
     background: none;
     border-top: none;
   }
@@ -3934,8 +3919,10 @@
   }
 
   /* Fixes: */
+  /* Following rules are right to have overrides! */
 
   /* Show text under spoilers */
+  /* stylelint-disable-next-line no-duplicate-selectors */
   .spoiler,
   .spoiler a {
     color: whitesmoke !important;

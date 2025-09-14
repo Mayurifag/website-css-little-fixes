@@ -2,9 +2,6 @@
   "extends": [
     "stylelint-config-standard"
   ],
-  "ignoreFiles": [
-    "**/*.min.css"
-  ],
   "rules": {
     "comment-empty-line-before": null,
     "rule-empty-line-before": null,
