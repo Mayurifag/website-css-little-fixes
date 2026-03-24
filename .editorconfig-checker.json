@@ -1,0 +1,7 @@
+{
+  "Exclude": [
+    "\\.bg-shell",
+    "\\.gsd",
+    "node_modules"
+  ]
+}

@@ -1,0 +1,2 @@
+[codespell]
+skip = node_modules,.git,.gsd,.bg-shell,package-lock.json

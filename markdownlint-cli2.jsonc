@@ -1,6 +1,6 @@
 {
   "config": {
-    // Disable line length. I like it but tooling in vscode cant show properly
+    // Disable line length. I like it but tooling in vscode can't show properly
     // multiline syntax like ~~...\n...~~
     "MD013": {
       "line_length": 200
