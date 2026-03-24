@@ -3,7 +3,7 @@
 ci: lint-editorconfig lint-md lint-yaml spellcheck lint-css
 
 lint-css:
-	npx stylelint '**/*.css'
+	npm run lint:css
 
 lint-md:
 	markdownlint-cli2 '**/*.md'
