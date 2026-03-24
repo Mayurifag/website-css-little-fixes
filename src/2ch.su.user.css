@@ -2673,7 +2673,7 @@
   }
 
   .de-runned .post__message {
-    word-wrap: inherit;
+    overflow-wrap: inherit;
     word-break: inherit;
   }
 

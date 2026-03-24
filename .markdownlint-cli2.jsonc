@@ -1,9 +1,17 @@
 {
-  "ignores": ["node_modules/**"],
   "config": {
-    "line-length": {
+    // Disable line length limit for tables, and raise global limit.
+    // I like it but tooling in vscode can't show properly multiline syntax like ~~...\n...~~
+    "MD013": {
+      "line_length": 200,
       "tables": false
     },
     "table-column-style": false
-  }
+  },
+  "fix": true,
+  "globs": [
+    "**/*.{md,markdown}"
+  ],
+  "ignores": ["node_modules/**"],
+  "noBanner": true
 }
