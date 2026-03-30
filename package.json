@@ -7,7 +7,7 @@
   },
   "license": "WTFPL",
   "scripts": {
-    "lint:css": "stylelint '**/*.css'",
-    "lint:css:fix": "stylelint '**/*.css' --fix"
+    "lint:css": "stylelint **/*.css",
+    "lint:css:fix": "stylelint **/*.css --fix"
   }
 }

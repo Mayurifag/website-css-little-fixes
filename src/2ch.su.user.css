@@ -1,14 +1,14 @@
 /* ==UserStyle==
 @name        2ch.su - fork of 2ch Rebuild theme
 @namespace   Mayurifag
-@version     0.1.0
+@version     0.1.1
 @homepageURL https://github.com/Mayurifag/website-css-little-fixes
 @updateURL   https://raw.githubusercontent.com/Mayurifag/website-css-little-fixes/main/src/2ch.su.user.css
 @license     MIT
 @author      Mayurifag
 @preprocessor uso
 ==/UserStyle== */
-@-moz-document domain("2ch.hk"), domain("2ch.life"), domain("2ch.su") {
+@-moz-document domain("2ch.org"), domain("2ch.life"), domain("2ch.su") {
 
   /* Original code. Changes with overriding code are on the end of file https://pastebin.com/Df3Qndsz */
   @font-face {
